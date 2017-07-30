@@ -1,0 +1,31 @@
+{
+  "name": "meli-api-demo",
+  "version": "1.0.0",
+  "description": "MELI API demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_PATH=. NODE_ENV=test mocha"
+  },
+  "repository": "git+https://github.com/jesusfar/meli-api-demo.git",
+  "keywords": [
+    "Mercado",
+    "Libre",
+    "API",
+    "DDD"
+  ],
+  "author": "Jesus Farfan <jesu.farfan23@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusfar/meli-api-demo/issues"
+  },
+  "homepage": "https://github.com/jesusfar/meli-api-demo#readme",
+  "dependencies": {
+    "awilix-express": "^0.11.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "nodemon": "^1.11.0"
+  }
+}

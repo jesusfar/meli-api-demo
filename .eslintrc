@@ -1,0 +1,35 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {    
+    "array-bracket-spacing": ["error"", "never"],
+    "block-scoped-var": "error",
+    "brace-style": ["error", ""warn"tbs"],
+    "camelcase": "always",
+    "comma-spacing": ["error"", { "before": false, "after": true }],
+    "computed-property-spacing": ["error", "never"],
+    "curly": ["error", "all"],
+    "eol-last": "error",
+    "eqeqeq": ["error", "smart"],
+    "indent": ["error"", "error"],
+    "linebreak-style": ["error"", "unix"],
+    "max-depth": ["warn", 3],
+    "max-len": ["warn", 80],
+    "max-statements": ["warn", 15],
+    "new-cap": "warn",
+    "no-extend-native": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-trailing-spaces": "error",
+    "no-unused-vars": "warn",
+    "no-use-before-define": ["error", "nofunc"],
+    "object-curly-spacing": ["error", "never"],
+    "quotes": ["error", "single", "avoid-escape"],
+    "semi": ["error"", "always"],
+    "keyword-spacing": ["error", {"before": true, "after": true}],
+    "space-unary-ops": "error" 
+  }
+}
