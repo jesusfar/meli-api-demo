@@ -4,14 +4,16 @@
   "description": "MELI API demo",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_PATH=. NODE_ENV=test mocha"
+    "start": "node index.js",
+    "test": "cross-env NODE_PATH=. NODE_ENV=test mocha",
+    "dev": "NODE_ENV=development nodemon"
   },
   "repository": "git+https://github.com/jesusfar/meli-api-demo.git",
   "keywords": [
-    "Mercado",
-    "Libre",
+    "Mercado Libre",
     "API",
-    "DDD"
+    "DDD",
+    "Domain Driven Design"
   ],
   "author": "Jesus Farfan <jesu.farfan23@gmail.com>",
   "license": "MIT",
@@ -20,12 +22,17 @@
   },
   "homepage": "https://github.com/jesusfar/meli-api-demo#readme",
   "dependencies": {
+    "awilix": "^2.6.0",
     "awilix-express": "^0.11.0",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
     "dotenv": "^4.0.0",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "method-override": "^2.3.9"
   },
   "devDependencies": {
     "eslint": "^4.3.0",
+    "express-status-monitor": "^1.0.0",
     "nodemon": "^1.11.0"
   }
 }
