@@ -6,6 +6,11 @@ config = {
   api: {
     host: '0.0.0.0',
     port: 3000
+  },
+  services: {
+    meli: {
+      baseUrl: 'https://api.mercadolibre.com'
+    }
   }
 }
 
