@@ -1,5 +1,3 @@
-'use strict';
-
 class Application {
   constructor({ server }) {
     this.server = server;
