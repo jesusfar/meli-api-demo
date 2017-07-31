@@ -12,6 +12,8 @@ class MeliClientService {
       this.request(uri, (error, response, body) => {
         if (error) {
           return reject(error);
+        } else if (response.statusCode !== 200) {
+          return reject(JSON.parse(body))
         }
         return resolve(JSON.parse(body));
       });
@@ -25,7 +27,10 @@ class MeliClientService {
       this.request(uri, (error, response, body) => {
         if (error) {
           return reject(error);
+        } else if (response.statusCode !== 200) {
+          return reject(JSON.parse(body))
         }
+
         return resolve(JSON.parse(body));
       });
     });
@@ -38,7 +43,10 @@ class MeliClientService {
       this.request(uri, (error, response, body) => {
         if (error) {
           return reject(error);
+        } else if (response.statusCode !== 200) {
+          return reject(JSON.parse(body))
         }
+
         return resolve(JSON.parse(body));
       });
     });
@@ -51,7 +59,10 @@ class MeliClientService {
       this.request(uri, (error, response, body) => {
         if (error) {
           return reject(error);
+        } else if (response.statusCode !== 200) {
+          return reject(JSON.parse(body))
         }
+
         return resolve(JSON.parse(body));
       });
     });
@@ -64,7 +75,10 @@ class MeliClientService {
       this.request(uri, (error, response, body) => {
         if (error) {
           return reject(error);
+        } else if (response.statusCode !== 200) {
+          return reject(JSON.parse(body))
         }
+
         return resolve(JSON.parse(body));
       });
     });
