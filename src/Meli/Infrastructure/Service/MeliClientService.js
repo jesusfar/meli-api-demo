@@ -31,6 +31,19 @@ class MeliClientService {
     });
   }
 
+  getItemDescriptionById(itemId) {
+    return new Promise((resolve, reject) => {
+      let uri = `${this.baseUrl}/items/${itemId}/description`;
+
+      this.request(uri, (error, response, body) => {
+        if (error) {
+          return reject(error);
+        }
+        return resolve(JSON.parse(body));
+      });
+    });
+  }
+
   getUserById(userId) {
     return new Promise((resolve, reject) => {
       let uri = `${this.baseUrl}/users/${userId}`;
