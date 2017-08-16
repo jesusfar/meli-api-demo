@@ -1,6 +1,6 @@
 {
   "name": "meli-api-demo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "MELI API demo",
   "main": "index.js",
   "scripts": {
@@ -10,13 +10,12 @@
   },
   "repository": "git+https://github.com/jesusfar/meli-api-demo.git",
   "keywords": [
-    "Mercado Libre",
     "API",
     "DDD",
     "Domain Driven Design"
   ],
   "author": "Jesus Farfan <jesu.farfan23@gmail.com>",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jesusfar/meli-api-demo/issues"
   },

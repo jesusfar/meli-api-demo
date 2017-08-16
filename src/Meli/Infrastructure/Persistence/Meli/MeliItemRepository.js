@@ -56,7 +56,7 @@ class MeliItemRepository {
       dataItem.condition,
       dataItem.shipping.free_shipping,
       dataItem.sold_quantity,
-      (dataDescription.text || dataDescription.plain_text)
+      dataDescription.plain_text
     );
 
     return item;
